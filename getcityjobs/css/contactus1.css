@@ -1,0 +1,110 @@
+ 
+*{
+    
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-container{
+    width: 70%;
+    min-height: 100vh;
+    display: flex; 
+    
+}
+.about-container{
+    background: rgba(255, 255, 255, 0);
+    width: 600px;
+    padding: 25px 40px;
+    box-shadow:0 0 8px 2px rgba(0, 0, 0, 0.225);
+    font-family: 'Poppins', sans-serif;
+    /* width: 55%; */
+    margin: 80px auto 0;
+margin-left: 49px;    min-height: 80vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(59, 59, 59);
+    padding: 20px 40px; 
+    border-radius: 36px;
+}
+.image-container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container img {
+    width: 600px;
+    margin: 20px;
+    border-radius: 10px;
+    margin-bottom: 150px;
+
+}
+.text-container{
+    margin-block: 29px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 22px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    border-radius: 15px;
+    margin-block: 35px;
+   
+}
+p{
+color: gray;
+    font-size: 16px;
+
+}
+.text-container h1{
+    color: #2397be;
+    font-size: 70px;
+    padding: 20px 0px;
+    
+}
+.text-container a{
+    color: #2397be
+}
+.text-container a:hover{
+    background-color: transparent;
+    color: #2397be
+    
+}
+@media screen and (max-width: 1600px){
+    .about-container{
+        
+        width: 90%;
+        margin-top: 130px;
+        margin-left: 90px;
+        margin-bottom: 130px;
+    }
+    .image-container img{
+        width: 400px;
+        height: 400px;
+        margin-bottom: -58px;
+    }
+    .text-container h1{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .about-container{
+        flex-direction: column;
+    }
+    .image-container img{
+        width: 300px;
+        height: 300px;
+    }
+    .text-container {
+        align-items: center;
+    }
+}

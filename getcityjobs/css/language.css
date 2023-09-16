@@ -1,0 +1,17 @@
+/* Hide language dropdown */
+.goog-te-combo {
+    display: none;
+}
+
+/* Hide Google Translate attribution */
+.goog-logo-link {
+    display: none !important;
+}
+
+.goog-te-gadget {
+    display: none !important;
+}
+
+.VIpgJd-ZVi9od-l4eHX-hSRGPd {
+    display: none;
+}

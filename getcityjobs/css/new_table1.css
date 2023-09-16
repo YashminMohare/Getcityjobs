@@ -1,0 +1,104 @@
+table {
+    display: inline-flex;
+    border-collapse: collapse;
+    box-align: center;    
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.2);
+  }
+  h1{
+
+    font-size: 32px;
+    list-style: 24px;
+    padding: 17px;
+    text-align: center;
+    color:rgb(16, 182, 16);
+  }
+  th {
+    background-color: #6c5ce7;
+    color: #fff;
+    padding: 15px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+    text-align: center;
+    border-bottom: 2px solid #fff;
+  }
+  
+  td {
+    background-color: #fff;
+    color: #333;
+    padding: 15px;
+    font-size: 13px;
+    border: 1px solid #ccc;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  h3 {
+    color: #10b610;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  body {
+    background-color: #fff;
+  }
+  
+  .button1 {
+    background-color: #8338e4;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button1:hover {
+    background-color: #7434c7;
+  }
+  
+  .button2 {
+    background-color: #10b610;;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button2:hover {
+    background-color:#0d9b0d;
+  }
+  .button3 {
+    background-color: #cc4137;;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .button3:hover {
+    background-color:#c00e0e;
+  }
+  
+  /* Add some margin between the buttons */
+  .button1 + .button2 {
+    margin-left: 10px;
+  }
+  
+  /* Add a subtle box-shadow to the buttons */
+  .button1,
+  .button2 {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  
